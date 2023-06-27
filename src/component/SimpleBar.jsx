@@ -9,6 +9,7 @@ ChartJS.register(
     Tooltip,
     Legend
 )
+// import {Chart as ChartJS} from "chart.js/auto" 
 
 const Chart = () => {
  const data={
