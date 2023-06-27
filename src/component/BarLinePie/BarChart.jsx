@@ -7,7 +7,7 @@ const BarChart = ({chartData}) => {
     <div>
       <div style={{width:500,margin:40}}>
       <Bar data={chartData} options={{}}/>
-      {/* <h2>Bar Chart</h2> */}
+      <h2>Bar Chart</h2>
       </div>
     </div>
   )
