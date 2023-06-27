@@ -5,7 +5,7 @@ import {Chart as ChartJS} from "chart.js/auto" //is same as register chartjs
 const BarChart = ({chartData}) => {
   return (
     <div>
-      <div style={{width:500,margin:40}}>
+      <div style={{width:500,margin:20,border:"1px solid black"}}>
       <Bar data={chartData} options={{}}/>
       <h2>Bar Chart</h2>
       </div>
