@@ -8,7 +8,7 @@ const LineChart = ({chartData}) => {
     <div>
        <div style={{width:500,margin:40}}>
       <Line data={chartData} options={{}}/>
-      {/* <h2>Line Chart</h2> */}
+      <h2>Line Chart</h2>
       </div>
     </div>
   )
