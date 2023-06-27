@@ -1,0 +1,32 @@
+export const userData=[
+    {
+        id:1,
+        year:2016,
+        userGain:80000,
+        userLost:823,
+    },
+    {
+        id:2,
+        year:2017,
+        userGain:45000,
+        userLost:323,
+    },
+    {
+        id:3,
+        year:2018,
+        userGain:75600,
+        userLost:555,
+    },
+    {
+        id:4,
+        year:2019,
+        userGain:90000,
+        userLost:4555,
+    },
+    {
+        id:5,
+        year:2020,
+        userGain:5600,
+        userLost:230,
+    },
+];
