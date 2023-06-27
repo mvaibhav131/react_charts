@@ -6,7 +6,7 @@ const PieChart = ({chartData}) => {
     <div>
      <div style={{width:330,margin:20}}>
      <Pie data={chartData} options={{}} />
-     {/* <h2>Pie Chart</h2> */}
+     <h2>Pie Chart</h2>
     </div>
     </div>
   )
