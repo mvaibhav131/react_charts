@@ -5,6 +5,7 @@ import Chart from './component/SimpleBar';
 import {userData} from "./Data";
 import LineChart from './component/BarLinePie/LineChart';
 import PieChart from './component/BarLinePie/PieChart';
+import Clickableline from './component/Clickableline';
 
 function App() {
  
@@ -29,7 +30,7 @@ function App() {
      <LineChart chartData={data} />
      <PieChart chartData={data} />
      </div>
-   
+     <Clickableline/>
     </div>
   );
 }
