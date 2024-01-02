@@ -2,7 +2,7 @@ import React from 'react'
 import { Line } from 'react-chartjs-2'
 import {Chart as ChartJS} from "chart.js/auto" //is same as register chartjs
 
-
+// Line Chart Function
 const LineChart = ({chartData}) => {
   return (
     <div>
