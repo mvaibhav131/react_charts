@@ -1,4 +1,4 @@
-name: Build & Deploy
+name: Build ,Testing & Deploy
 
 on:
   push:
@@ -42,6 +42,14 @@ jobs:
         with:
           name: production-files
           path: ./build
+
+  testing:
+    name: Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run tests
+        run: npm run test 
 
   deploy:
     name: Deploy
