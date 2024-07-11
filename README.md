@@ -1,4 +1,5 @@
 # Getting Started with Create React App.
+![Grid Full + Scroll](https://github.com/mvaibhav131/react_charts/assets/98808183/5df1d1f1-2017-4720-a174-1a84801db0b4)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
